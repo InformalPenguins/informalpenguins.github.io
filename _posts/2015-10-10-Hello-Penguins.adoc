@@ -1,0 +1,8 @@
+= Hello Penguins!
+:hp-tags: penguins, into, blog, lol
+
+This is a sample post.
+
+== This is a title
+
+and more content...
