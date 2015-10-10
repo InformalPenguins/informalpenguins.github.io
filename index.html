@@ -2,17 +2,54 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="{{ post.image }}">
-    </div>
-    <div class="card-content">
-      <div class="icon">
-        <img class="responsive-img" src="{{ post.icon }}">
+<!-- <div class="container slide">
+  <img class="responsive-img" src="http://i.imgur.com/NFlsd2J.png" alt="{{site.title}}">
+</div> -->
+
+<div class="container">
+  {% for post in site.posts %}
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="{{ post.image }}">
       </div>
-      <div class="info">
-        <span class="card-title activator grey-text text-darken-4">{{ post.title }}<i class="material-icons right">more_vert</i></span>
+      <div class="card-content">
+        <div class="icon">
+          <img class="responsive-img" src="{{ post.icon }}">
+        </div>
+        <div class="info">
+          <div class="card-title activator grey-text text-darken-4">
+            <i class="material-icons right more">more_vert</i>
+            <div class="game-title">
+              {{ post.title }}
+            </div>
+            <!-- <div class="platforms">
+              {% if post.android %}
+                <i class="fa fa-android"></i>
+              {% endif %}
+              {% if post.steam %}
+                <i class="fa fa-steam"></i>
+              {% endif %}
+              {% if post.apple %}
+                <i class="fa fa-apple"></i>
+              {% endif %}
+              {% if post.windows %}
+                <i class="fa fa-windows"></i>
+              {% endif %}
+              {% if post.web %}
+                <i class="fa fa-html5"></i>
+              {% endif %}
+            </div> -->
+            <!-- <div class="game-download hide-on-med-and-down">
+              <a href="{{ post.playstore }}" target="_blank">
+                <img src="http://i.imgur.com/bmGZdLY.png" alt="Google Play">
+              </a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">{{ post.title }}<i class="material-icons right">close</i></span>
+        <p>{{ post.content }}</p>
         <p>
           <a href="{{ post.playstore }}" target="_blank">
             <img src="http://i.imgur.com/bmGZdLY.png" alt="Google Play">
@@ -20,14 +57,6 @@ layout: default
         </p>
       </div>
     </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">{{ post.title }}<i class="material-icons right">close</i></span>
-      <p>{{ post.content }}</p>
-      <p>
-        <a href="{{ post.playstore }}" target="_blank">
-          <img src="http://i.imgur.com/bmGZdLY.png" alt="Google Play">
-        </a>
-      </p>
-    </div>
-  </div>
-{% endfor %}
+  {% endfor %}
+
+</div>

@@ -5,6 +5,7 @@ categories: apps
 playstore: https://play.google.com/store/apps/details?id=com.informalpenguins.rocketprincess
 icon: http://i.imgur.com/LyF0Oom.png
 image: http://i.imgur.com/vXgoFLj.png
+android: true
 ---
 
 Can you help Princess rescue her prince?

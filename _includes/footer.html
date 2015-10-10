@@ -1,19 +1,32 @@
-<footer class="page-footer teal">
+<footer class="page-footer navy-blue">
   <div class="container">
     <div class="row">
-      <div class="col l9 s12">
-        <h5 class="white-text">Company Bio</h5>
+      <div class="col l8 s12">
         <p class="grey-text text-lighten-4">
           {{ site.description }}
         </p>
       </div>
-      <div class="col l3 s12">
-        <h5 class="white-text">Links</h5>
+      <div class="col l4 s12">
         <ul>
+          <li>
+            <a class="white-text" href="mailto:{{ site.email }}">
+              <i class="fa fa-envelope"></i> {{ site.email }}
+            </a>
+          </li>
           {% if site.github_username %}
-            <li><a class="white-text" href="https://github.com/{{ site.github_username }}" target="_blank"><img src="http://i.imgur.com/9I6NRUm.png" alt="github">&nbsp;{{ site.github_username }}</a></li>
+            <li>
+              <a target="_blank" class="white-text" href="https://github.com/{{ site.github_username }}">
+                <i class="fa fa-github-alt"></i> {{ site.github_username }}
+              </a>
+            </li>
           {% endif %}
-            <li><a class="white-text" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% if site.playstore_id %}
+            <li>
+              <a target="_blank" class="white-text" href="https://play.google.com/store/apps/developer?id={{ site.playstore_id }}">
+                <i class="fa fa-android"></i> {{ site.playstore_id }}
+              </a>
+            </li>
+          {% endif %}
         </ul>
       </div>
     </div>

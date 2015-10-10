@@ -1,82 +1,49 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-nav ul a,
-nav .brand-logo {
-  color: #444;
+.blue {
+  background-color: #3DC0F1 !important;
 }
 
-p {
-  line-height: 2rem;
-}
-
-.button-collapse {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
-img.logo {
-  height: 55px;
-  margin-right: 10px;
-  vertical-align: middle;
+.navy-blue {
+  background-color: #34495e !important;
 }
 
 .card-image {
-  max-height: 30em;
+  max-height: 20em;
+}
+
+.card-content {
+  color: #666;
+  position: relative;
 }
 
 .icon {
-  display: inline-block;
-  width: 80px;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
 }
 
 .info {
-  display: inline-block;
-  padding-left: 20px;
-  width: calc(100% - 90px);
+    display: inline-block;
+    width: calc(100% - 5.5rem);
+    overflow: hidden;
+}
+
+.card .info .card-title.activator {
+  line-height: 5rem;
+  padding-left: 3%;
+}
+
+.more {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1;
 }
 
 .card .card-content p {
     display: flex;
+}
+
+.platforms i {
+  font-size: 10px;
+  margin-right: 0.5em;
 }
