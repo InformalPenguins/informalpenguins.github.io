@@ -1,0 +1,23 @@
+<nav class="white" role="navigation">
+  <div class="nav-wrapper container">
+    <img class="responsive-img logo hide-on-med-and-down" src="{{ site.logo }}" alt="{{ site.title }}">
+    <a id="logo-container" href="{{ site.baseurl }}/" class="brand-logo">{{ site.title }}</a>
+
+    <ul class="right hide-on-med-and-down">
+      {% for page in site.pages %}
+        {% if page.title %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <ul id="nav-mobile" class="side-nav" style="left: -250px;">
+      {% for page in site.pages %}
+        {% if page.title %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  </div>
+</nav>

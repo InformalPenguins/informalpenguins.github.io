@@ -1,0 +1,12 @@
+# Site settings
+title: InformalPenguins
+email: hello@informalpenguins.com
+logo: http://i.imgur.com/U6ER2fC.jpg
+description: > # this means to ignore newlines until "baseurl:"
+  Game development. The team got together for the love of producing delightful digital experiences.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://informalpenguins.com/" # the base hostname & protocol for your site
+github_username:  informalpenguins
+
+# Build settings
+markdown: kramdown

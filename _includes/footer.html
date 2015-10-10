@@ -1,0 +1,26 @@
+<footer class="page-footer teal">
+  <div class="container">
+    <div class="row">
+      <div class="col l9 s12">
+        <h5 class="white-text">Company Bio</h5>
+        <p class="grey-text text-lighten-4">
+          {{ site.description }}
+        </p>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          {% if site.github_username %}
+            <li><a class="white-text" href="https://github.com/{{ site.github_username }}" target="_blank"><img src="http://i.imgur.com/9I6NRUm.png" alt="github">&nbsp;{{ site.github_username }}</a></li>
+          {% endif %}
+            <li><a class="white-text" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    Built with &#10084; and Free and Open-Source Software.
+    </div>
+  </div>
+</footer>
