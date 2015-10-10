@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "informalpenguins",
-    "repositoryName": "informalpenguins.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"informalpenguins","repositoryName":"informalpenguins.github.io","branch":"master"},"site":{"title":"Informal Penguins","description":"Game development. The team got together for the love of producing delightful digital experiences.","logo":"http://i.imgur.com/U6ER2fC.jpg","url":"https://informalpenguins.github.io"},"socialnetwork":{"email":"hello@informalpenguins.com","github":"https://github.com/InformalPenguins"},"theme":{"name":"Casper","url":"//informalpenguins.github.io/themes/Casper"}}
