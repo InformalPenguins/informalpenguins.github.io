@@ -4,7 +4,7 @@ title:  "RocketPrincess"
 categories: apps
 playstore: https://play.google.com/store/apps/details?id=com.informalpenguins.rocketprincess
 icon: http://i.imgur.com/LyF0Oom.png
-image: http://i.imgur.com/vXgoFLj.png
+image: http://i.imgur.com/lmcTN6E.png
 android: true
 ---
 

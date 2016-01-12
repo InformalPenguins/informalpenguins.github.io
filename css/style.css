@@ -1,11 +1,3 @@
-.blue {
-  background-color: #3DC0F1 !important;
-}
-
-.navy-blue {
-  background-color: #34495e !important;
-}
-
 .card-image {
   max-height: 20em;
 }
@@ -46,4 +38,36 @@
 .platforms i {
   font-size: 10px;
   margin-right: 0.5em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.side-nav {
+  /*background-color: #000 !important;*/
+}
+
+.side-nav a {
+  color: #000 !important;
+}
+
+.teampics {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.teampics li {
+  margin: 5px;
+  font-size: 18px;
+  width: 151px;
+  text-align: center;
+}
+
+.teampics img {
+  width: 150px;
+  height: 150px;
 }
