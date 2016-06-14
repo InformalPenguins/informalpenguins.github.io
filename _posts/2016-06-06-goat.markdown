@@ -2,7 +2,6 @@
 layout: post
 title:  "Goat"
 categories: apps
-playstore: https://play.google.com/store/apps/details?id=com.informalpenguins.rocketprincess
 icon: http://imgur.com/nszXetL.png
 image: http://i.imgur.com/ZBikQCR.png
 android: false
