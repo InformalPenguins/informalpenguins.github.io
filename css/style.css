@@ -54,7 +54,7 @@ footer {
 }
 
 .teampics {
-  margin-top: 10%;
+  margin: 10% 0 15%;
   display: flex;
   justify-content: space-between;
 }
