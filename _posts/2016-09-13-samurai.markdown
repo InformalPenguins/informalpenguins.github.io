@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Samurai"
+categories: apps
+icon: http://i.imgur.com/67O31yY.png
+image: http://i.imgur.com/NqrnFQC.png
+android: false
+---
+
+Help the samurai protect its master's sacred scroll from the ninjas that try to steal it!
+
+You can play Samurai [here.][samurai-link] for free!
+
+[samurai-link]: /samurai/index.html
