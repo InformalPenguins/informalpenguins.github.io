@@ -3,7 +3,7 @@ layout: post
 title:  "Samurai"
 categories: apps
 icon: http://i.imgur.com/67O31yY.png
-image: http://i.imgur.com/NqrnFQC.png
+image: http://i.imgur.com/ueXoMV5.png
 android: false
 ---
 
