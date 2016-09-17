@@ -1,9 +1,9 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: "Informal Penguins"
+title: "InformalPenguins"
 description: > # this means to ignore newlines until "baseurl:"
-  Game development. The team got together for the love of producing delightful digital experiences.
+  Informal Penguins is an independent game development studio based in Hermosillo, México. We love games. We are a group of people working wherever there is free wi-fi. The team got together for the love of making digital entertainment.
 analytics: "UA-84316734-1" #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: ""
 url: "http://informalpenguins.com/"
