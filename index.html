@@ -1,62 +1,59 @@
 ---
-layout: default
+layout: index
+title: Home
+permalink: /
 ---
 
-<!-- <div class="container slide">
-  <img class="responsive-img" src="http://i.imgur.com/NFlsd2J.png" alt="{{site.title}}">
-</div> -->
-
-<div class="container">
-  {% for post in site.posts %}
-    <div class="card">
-      <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator" src="{{ post.image }}">
-      </div>
-      <div class="card-content">
-        <div class="icon">
-          <img class="responsive-img" src="{{ post.icon }}">
-        </div>
-        <div class="info">
-          <div class="card-title activator grey-text text-darken-4">
-            <i class="material-icons right more">more_vert</i>
-            <div class="game-title">
-              {{ post.title }}
+<!-- <div id="service">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-4">
+                <i class="fa fa-heart-o"></i>
+                <h4>Handsomely Crafted</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
             </div>
-            <!-- <div class="platforms">
-              {% if post.android %}
-                <i class="fa fa-android"></i>
-              {% endif %}
-              {% if post.steam %}
-                <i class="fa fa-steam"></i>
-              {% endif %}
-              {% if post.apple %}
-                <i class="fa fa-apple"></i>
-              {% endif %}
-              {% if post.windows %}
-                <i class="fa fa-windows"></i>
-              {% endif %}
-              {% if post.web %}
-                <i class="fa fa-html5"></i>
-              {% endif %}
-            </div> -->
-            <!-- <div class="game-download hide-on-med-and-down">
-              <a href="{{ post.playstore }}" target="_blank">
-                <img src="http://i.imgur.com/bmGZdLY.png" alt="Google Play">
-              </a>
-            </div> -->
-          </div>
+            <div class="col-md-4">
+                <i class="fa fa-flask"></i>
+                <h4>Retina Ready</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-trophy"></i>
+                <h4>Quality Theme</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
         </div>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">{{ post.title }}<i class="material-icons right">close</i></span>
-        <p>{{ post.content }}</p>
-        <p>
-          <a href="{{ post.playstore }}" target="_blank">
-            <img src="http://i.imgur.com/bmGZdLY.png" alt="Google Play">
-          </a>
-        </p>
-      </div>
-    </div>
-  {% endfor %}
+    </div><! --/container -- =>
+</div><! --/service -- => -->
 
-</div>
+{% include portfolio.html title="LATEST WORKS" limit=10 %}
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-1">
+            <h4>What is this?</h4>
+            <p>{{ site.about }}</p>
+            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+        </div>
+
+        <div class="col-lg-3">
+            <h4>Frequently Asked</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['question'] %}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            {% endfor %}
+        </div>
+
+        <!-- <div class="col-lg-3">
+            <h4>Latest Posts</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['blog'] limit:5 %}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+            {% endfor %}
+        </div> -->
+
+    </div><! --/row -->
+</div><! --/container -->

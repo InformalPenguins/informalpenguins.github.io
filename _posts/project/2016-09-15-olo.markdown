@@ -1,0 +1,17 @@
+---
+layout: project
+title:  "olo"
+date:   2016-09-15 01:01:01
+categories:
+- project
+img: olo.png
+thumb: olo.png
+carousel:
+- olo_1.png
+- olo_2.gif
+- olo_3.gif
+tagged: html5, platform, olo
+website: http://olo.surge.sh/
+---
+#### olo
+A brief platforms game. Developed completely in javascript using phaser.js as a proof of concept.

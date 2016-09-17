@@ -1,20 +1,17 @@
-<div class="navbar-fixed">
-  <nav class="black">
-    <div class="nav-wrapper container">
-      <a href="{{ site.baseurl }}/" class="brand-logo right">{{ site.title }}</a>
-
-      <a href="#" data-activates="slide-out" class="button-collapse show-on-large left">
-        <i class="material-icons">menu</i>
-      </a>
-
-      <ul id="slide-out" class="side-nav" style="left: -250px;">
-        <li><a href="/">Home</a></li>
-        {% for page in site.pages %}
-          {% if page.title %}
-          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </nav>
-</div>
+<div id="headerwrap">
+    <div class="container">
+        <div class="row">
+            <!-- This area should be reworked -->
+            <!-- <div class="col-lg-8 col-lg-offset-2">
+                <h3>Show your work with this beautiful theme</h3>
+                <h1>Eyecatching Bootstrap 3 Theme.</h1>
+                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                <h5>More Lorem Ipsum added here too.</h5>
+            </div> -->
+            <!-- <div class="col-lg-8 col-lg-offset-2 himg"> -->
+            <div class="col-sm-4 col-sm-offset-4 himg">
+                <img src="{{ "/assets/img/informalpenguins.jpg" | prepend: site.baseurl }}" class="img-responsive">
+            </div>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /headerwrap -->

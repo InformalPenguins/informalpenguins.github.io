@@ -1,0 +1,17 @@
+---
+layout: project
+title:  "Goat"
+date:   2016-09-11 01:01:01
+categories:
+- project
+img: goat.jpg
+thumb: goat.jpg
+carousel:
+- goat_1.png
+- goat_2.png
+- goat_3.gif
+tagged: unity, webgl, platform, goat
+website: http://informalpenguins.com/games/goat/
+---
+#### Goat
+You're the sacrifice for this Blood Moon, but you don't want to be sacrificed. Escape those evil farmers!
