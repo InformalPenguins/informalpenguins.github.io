@@ -1,14 +1,124 @@
+### GENERAL SETTINGS ###
+
 # Site settings
-title: InformalPenguins
-email: hello@informalpenguins.com
-logo_header: http://i.imgur.com/T5lwHih.png
-logo: http://i.imgur.com/U6ER2fC.jpg
+title: "InformalPenguins"
 description: > # this means to ignore newlines until "baseurl:"
-  Game development. The team got together for the love of producing delightful digital experiences.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://informalpenguins.com/" # the base hostname & protocol for your site
-github_username: informalpenguins
-playstore_id: InformalPenguins
+  Informal Penguins is an independent game development studio based in Hermosillo, México. We love games. We are a group of people working wherever there is free wi-fi. The team got together for the love of making digital entertainment.
+analytics: "UA-84316734-1" #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: ""
+url: "http://informalpenguins.com/"
 
 # Build settings
 markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" #"#F70031"
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#384452" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+
+
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  # - title: dribbble
+  #   url:
+  - title: envelope
+    url: "mailto:hello@informalpenguins.com"
+  - title: github
+    url: "https://github.com/informalpenguins"
+  - title: android
+    url: "https://play.google.com/store/apps/developer?id=InformalPenguins"
+  - title: facebook
+    url: "https://www.facebook.com/informalpenguinsoficial"
+  # - title: twitter
+  #   url:
+  # - title: instagram
+  #   url:
+  # - title: tumblr
+  #   url:
+
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines:
+    - Hermosillo, Sonora.
+    - México.
+email: hello@informalpenguins.com
+# tel: +34 8493-4893
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+
+# Members information. Shown on About page.
+members:
+  - name: Tony
+    #position: CEO
+    #text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: tony.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:hello@tonymtz.com
+      - title: twitter
+        url: http://twitter.com/_tonymtz
+  - name: Benitez
+    #position: Lead Designer
+    #text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: benitez.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/HectorBenitez
+  - name: Porfirio
+    #position: Lead Developer
+    #text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: porfi.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/porfiriopartida
+  - name: Thannia
+    #position: Marketing
+    #text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: thannia.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/thanniaB
+  - name: Isaac
+    #position: Marketing
+    #text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: shadowleader.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/el_keogh
+
+# Clients information. Shown on Home and About pages.
+# clients:
+#   - name: dribbble
+#     img: client01.png
+#   - name: Code is Poetry
+#     img: client02.png
+#   - name: Vimeo
+#     img: client03.png
+#   - name: VimeoPro
+#     img: client04.png
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Informal Penguins is an independent game development studio based in Hermosillo, México."
+
+# Testimonial content. Shown on Home and About page.
+# testimonial:
+#     message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+#     author: Marcel Newman
+#     position: WEB DESIGNER - BLACKTIE.CO

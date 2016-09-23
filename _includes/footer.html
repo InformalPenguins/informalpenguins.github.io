@@ -1,39 +1,29 @@
-<footer class="page-footer black">
-  <div class="container">
-    <div class="row">
-      <div class="col l8 s12">
-        <p class="grey-text text-lighten-4">
-          {{ site.description }}
-        </p>
-      </div>
-      <div class="col l4 s12">
-        <ul>
-          <li>
-            <a class="white-text" href="mailto:{{ site.email }}">
-              <i class="fa fa-envelope"></i> {{ site.email }}
-            </a>
-          </li>
-          {% if site.github_username %}
-            <li>
-              <a target="_blank" class="white-text" href="https://github.com/{{ site.github_username }}">
-                <i class="fa fa-github-alt"></i> {{ site.github_username }}
-              </a>
-            </li>
-          {% endif %}
-          {% if site.playstore_id %}
-            <li>
-              <a target="_blank" class="white-text" href="https://play.google.com/store/apps/developer?id={{ site.playstore_id }}">
-                <i class="fa fa-android"></i> {{ site.playstore_id }}
-              </a>
-            </li>
-          {% endif %}
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="footer-copyright">
+<div id="footerwrap">
     <div class="container">
-    Built with &#10084; and Free and Open-Source Software.
-    </div>
-  </div>
-</footer>
+        <div class="row">
+            <div class="col-lg-4">
+                <h4>About</h4>
+                <div class="hline-w"></div>
+                <p>{{ site.about }}</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Social Links</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Our Bunker</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->

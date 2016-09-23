@@ -1,0 +1,18 @@
+---
+layout: project
+title:  "Samurai"
+date:   2016-09-12 01:01:01
+categories:
+- project
+img: samurai.png
+thumb: samurai.png
+carousel:
+- samurai_1.png
+- samurai_2.png
+- samurai_3.gif
+- samurai_4.gif
+tagged: unity, webgl, arcade, samurai
+website: http://informalpenguins.com/games/samurai/
+---
+#### Samurai
+Help the samurai protect its master's sacred scroll from the ninjas that try to steal it!

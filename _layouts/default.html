@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
+    <body>
+        {% include nav.html %}
 
-    {% include header.html %}
+            {{ content }}
 
-    {{ content }}
-
-    {% include footer.html %}
-
-    <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-    <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
-
-  </body>
-
+        {% include footer.html %}
+        {% include js.html %}
+    </body>
 </html>
