@@ -12,8 +12,10 @@ carousel:
 - umadbro_3.png
 - umadbro_4.png
 - umadbro_5.png
+- umadbro_6.png
+- umadbro_7.png
 tagged: unity, android, platform, umadbro
 website: https://play.google.com/store/apps/details?id=com.InformalPenguins.DontCensorMeBro
 ---
 #### U Mad Bro?
-Sick of those filthy feminists censoring your games? Kill them all in this fast paced side scroller!
+Sick of those filthy feminists censoring your games? Sick of those who are not voting for you? Kill them all in this fast paced side scroller!
