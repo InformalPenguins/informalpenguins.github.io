@@ -216,7 +216,7 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: : {{ site.colors.primary }};
+	background-color: {{ site.colors.primary }};
 	background-image: url('/assets/img/banner.png');
 	background-size: contain;
 	background-position-y: 70px;
