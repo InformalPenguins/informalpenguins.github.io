@@ -1,0 +1,18 @@
+---
+layout: project
+title:  "Game Play to Work"
+date:   2016-09-10 01:01:01
+categories:
+- project
+img: gptw.png
+thumb: gptw.png
+carousel:
+- gptw_1.png
+- gptw_2.png
+- gptw_3.png
+- gptw_4.png
+tagged: html5, android, arcade, greatplacetowork
+website: https://play.google.com/store/apps/details?id=com.fifino.gptw
+---
+#### Game Play to Work
+Make sure your workplace is the best place to work with this series of minigames!
