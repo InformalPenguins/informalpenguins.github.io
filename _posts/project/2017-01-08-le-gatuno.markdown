@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "Le Gatuno"
+date:   2017-01-08 01:01:01
+categories:
+- project
+img: legatuno.png
+thumb: legatuno.png
+carousel:
+- legatuno_1.gif
+- legatuno_2.gif
+- legatuno_3.gif
+tagged: html5, platform, le-gatuno
+website: https://play.google.com/store/apps/details?id=com.InformalPenguins.LeGatuno
+---
+#### Le Gatuno
+
+Originally made during GBJAM5.
+
+Le Gatuno is a platform game with a little bit of strategy. The main task is to help the cat to reach the fish before the time runs out, as secondary mission you can collect the 3 stars available in each stage.
+The game mechanics are simple, the cat runs by itself and will jump at your command. Hence, the input is basically one button.
