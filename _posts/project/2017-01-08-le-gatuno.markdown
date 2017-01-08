@@ -10,7 +10,7 @@ carousel:
 - legatuno_1.gif
 - legatuno_2.gif
 - legatuno_3.gif
-tagged: html5, platform, le-gatuno
+tagged: android, platform, le-gatuno
 website: https://play.google.com/store/apps/details?id=com.InformalPenguins.LeGatuno
 ---
 #### Le Gatuno
